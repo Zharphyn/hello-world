@@ -4501,6 +4501,77 @@ vagrant [vagrant]> git-it verify
 
 
 vagrant [hello-world]> vim
+vagrant [hello-world]> git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	readme.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+vagrant [hello-world]> git add readme.txt
+vagrant [hello-world]> git commit -m "Insert Readme"
+[master (root-commit) 3f514e3] Insert Readme
+ 1 file changed, 4588 insertions(+)
+ create mode 100644 readme.txt
+vagrant [hello-world]> nano
+-bash: nano: command not found
+vagrant [hello-world]> vim
+
+Last login: Tue Jan 30 15:59:35 on ttys000
+Bradleys-MacBook-Pro:~ bradleythiessen$ pwd
+/Users/bradleythiessen
+Bradleys-MacBook-Pro:~ bradleythiessen$ cd lighthouse
+Bradleys-MacBook-Pro:lighthouse bradleythiessen$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Clearing any previously set forwarded ports...
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+    default: Adapter 1: nat
+==> default: Forwarding ports...
+    default: 3000 (guest) => 3000 (host) (adapter 1)
+    default: 3001 (guest) => 3001 (host) (adapter 1)
+    default: 8080 (guest) => 8080 (host) (adapter 1)
+    default: 5000 (guest) => 5000 (host) (adapter 1)
+    default: 5432 (guest) => 5432 (host) (adapter 1)
+    default: 22 (guest) => 2222 (host) (adapter 1)
+==> default: Running 'pre-boot' VM customizations...
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+    default: SSH address: 127.0.0.1:2222
+    default: SSH username: vagrant
+    default: SSH auth method: private key
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+==> default: Mounting shared folders...
+    default: /vagrant => /Users/bradleythiessen/lighthouse
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> default: flag to force provisioning. Provisioners marked to run always will still run.
+Bradleys-MacBook-Pro:lighthouse bradleythiessen$ vagrant ssh
+Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-87-generic x86_64)
+           .-='-. _db_      .--==-,
+          (_  (  _IIII_   _(    )  `.
+            (    |" " |-.(  ` ,_  `  )
+             '-._HHHHHH  `)---' `'--'
+                 |.   |--`
+                 |    |      Lighthouse Labs
+       _H___,=====;___|      Built # 20171219-141500-8dc7a2e
+    n_/____/____/``\__\
+   /__|:: :|. .|:::|::|      Direct complaints to /dev/null
+_%&|__&%_"_|_"_|_ H|__|__
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+Last login: Wed Jan 31 00:51:49 2018 from 10.0.2.2
+vagrant [vagrant]> npm install -g javascripting
+/home/vagrant/.nvm/versions/node/v8.9.4/bin/javascripting -> /home/vagrant/.nvm/versions/node/v8.9.4/lib/node_modules/javascripting/bin/javascripting
++ javascripting@2.6.1
+added 111 packages in 10.718s
+vagrant [vagrant]> javascripting
 
 
 
@@ -4514,75 +4585,4 @@ vagrant [hello-world]> vim
 
 
 
-
-
-
-
-
-
-
-The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox ju
-mped over the lazy dog.
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
-~                                                                                                                                                               
--- INSERT --                                                                                                                                  1,184         All
+"readme.txt" 4588L, 201440C                                                                                                                   1,1           Top
